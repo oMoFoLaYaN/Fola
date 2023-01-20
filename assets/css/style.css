@@ -1,5 +1,6 @@
 :root {
   --accent: #fece1a;
+  --primary: #ffe895;
 }
 /*--------------------------------------------------------------
 # General
@@ -79,7 +80,7 @@ h6 {
 
 #header h1 a,
 #header h1 a:hover {
-  color: #fff;
+  color: var(--primary);
   line-height: 1;
   display: inline-block;
 }
@@ -468,7 +469,7 @@ section .container {
   width: 100%;
   position: relative;
   text-align: center;
-  background: rgba(255, 255, 255, 0.08);
+  background: transparent;
 }
 
 .counts .count-box i {
@@ -512,7 +513,7 @@ section .container {
 .skills-icon,
 .skills-arrow{
   font-size: 2rem;
-  color: green;
+  color: var(--primary);
 }
 
 .skills-icon{
@@ -525,7 +526,7 @@ section .container {
 
 .skills-subtitle{
   font-size: .875rem;
-  color: yellowgreen;
+  color: var(--primary);
 }
 
 .skills-arrow{
@@ -558,12 +559,12 @@ section .container {
 }
 
 .skills-bar{
-  background-color: yellow;
+  background-color: var(--primary);
 }
 
 .skills-percentage{
   display: block;
-          background-color: green;
+          background-color: var(--accent);
 }
 
 .skills-html{
