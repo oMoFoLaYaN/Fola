@@ -186,17 +186,17 @@ h6 {
 .home-img{
   position: absolute;
   top: 20%;
-  right: 15%;
+  right: 20%;
 }
 
 @media screen and (max-width: 992px) {
   .home-img{
     top: 5%;
     right: 40%;
+    margin:20% 0 0 40%;
+    width: 30%;
   }
-  .home-blob{
-    width: 120%;
-  }
+
 }
 
 .home-blob{
